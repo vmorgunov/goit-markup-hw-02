@@ -6,9 +6,6 @@
   --acent-color: #2196f3;
 }
 
-/* TODO 
-  ! записаьб переменные для всех цветов и фонов
-*/
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -81,7 +78,7 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -89,7 +86,7 @@ a {
 
 .hero-btn {
   background-color: var(--acent-color);
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -99,20 +96,21 @@ a {
 
 /* ОСОБЕНОСТИ */
 
-.section-title {
+.section-description-title {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
-.section-text {
+.section-description-text,
+.section-team-text {
   font-size: 16px;
   line-height: 1.2;
   color: var(--secondary-text-color);
 }
 
-/* ЧЕМ ТЫ ЗАНИМАЕЬСЯ */
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 
 .section-work-title {
   font-size: 36px;
@@ -143,11 +141,6 @@ a {
   line-height: 1.2;
 }
 
-.section-team-text {
-  font-size: 16px;
-  line-height: 1.2;
-}
-
 /* ПОДВАЛ */
 
 .page-footer {
@@ -168,4 +161,34 @@ a {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* * СТИЛИЦАЗИЯ portfolio.html */
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn-active {
+  background-color: var(--acent-color);
+  color: #fff;
+}
+
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
