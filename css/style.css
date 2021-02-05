@@ -4,6 +4,7 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --acent-color: #2196f3;
+  --white-color: #fff;
 }
 
 body {
@@ -78,7 +79,7 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
-  color: #fff;
+  color: var(--white-color);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -86,7 +87,7 @@ a {
 
 .hero-btn {
   background-color: var(--acent-color);
-  color: #fff;
+  color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -148,13 +149,13 @@ a {
 }
 
 .logo-footer {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .contacts-footer-maps {
   font-size: 14px;
   line-height: 1.7;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .contacts-footer-info {
@@ -175,7 +176,7 @@ a {
 
 .btn-active {
   background-color: var(--acent-color);
-  color: #fff;
+  color: var(--white-color);
 }
 
 .gallery-title {
