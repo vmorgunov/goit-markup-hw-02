@@ -5,6 +5,9 @@
   --secondary-text-color: #757575;
   --acent-color: #2196f3;
   --white-color: #fff;
+  --bg-color-team: #f5f4fa;
+  --bg-color-acent: #2f303a;
+  --contacts-color-footer: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -72,7 +75,7 @@ a {
 /* СЕКЦИЯ ГЕРОЙ*/
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-color-acent);
 }
 
 .hero-title {
@@ -99,8 +102,8 @@ a {
 
 .section-description-title {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.1;
   text-transform: uppercase;
 }
 
@@ -123,7 +126,7 @@ a {
 /* НАША КОМАНДА */
 
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-color-team);
 }
 
 .section-team h2 {
@@ -145,7 +148,7 @@ a {
 /* ПОДВАЛ */
 
 .page-footer {
-  background-color: #2f303a;
+  background-color: var(--bg-color-acent);
 }
 
 .logo-footer {
@@ -161,7 +164,7 @@ a {
 .contacts-footer-info {
   font-size: 14px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-color-footer);
 }
 
 /* * СТИЛИЦАЗИЯ portfolio.html */
@@ -175,7 +178,9 @@ a {
   letter-spacing: 0.03em;
 }
 
-.btn-active {
+.btn-active,
+.filter-btn:hover,
+.filter-btn:focus {
   background-color: var(--acent-color);
   color: var(--white-color);
 }
