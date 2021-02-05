@@ -65,7 +65,8 @@ a {
   color: var(--secondary-text-color);
 }
 
-.contacts-header-mail:hover {
+.contacts-header-mail:hover,
+.contacts-header-mail:focus {
   color: var(--acent-color);
 }
 
